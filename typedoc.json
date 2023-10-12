@@ -1,0 +1,5 @@
+{
+  "entryPoints": [
+    "./dist/src/index.esm.js"
+  ]
+}
