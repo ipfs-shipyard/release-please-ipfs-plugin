@@ -156,5 +156,9 @@
       "node": "./dist/src/index.js"
     }
   },
-  "type": "commonjs"
+  "type": "commonjs",
+  "publishConfig": {
+    "access": "public"
+  },
+  "private": false
 }
