@@ -4,9 +4,9 @@
     "outDir": "dist",
     "target": "ES6",
     "module": "commonjs",
-    "verbatimModuleSyntax": false,
+    "verbatimModuleSyntax": false
   },
   "include": [
-    "src",
+    "src"
   ]
 }

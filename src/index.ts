@@ -1,12 +1,13 @@
 import { registerPlugin, getPluginTypes } from 'release-please'
+import { logger } from 'release-please/build/src/util/logger'
 import { CustomPlugin } from './plugin'
 
-export function init(...args: unknown[]) {
-  console.log('@ipfs-shipyard/release-please-ipfs-plugin init called with args: ', args)
+export function init (...args: unknown[]): void {
+  logger.info('@ipfs-shipyard/release-please-ipfs-plugin init called with args: ', args)
 
   registerPlugin('@ipfs-shipyard/release-please-ipfs-plugin', (options: any) => new CustomPlugin(options.github, options.targetBranch, options.repositoryConfig))
-  console.log('registered @ipfs-shipyard/release-please-ipfs-plugin')
-  console.log('currently registered plugins: ', getPluginTypes())
+  logger.info('registered @ipfs-shipyard/release-please-ipfs-plugin')
+  logger.info('currently registered plugins: ', getPluginTypes())
 }
 
 init()
