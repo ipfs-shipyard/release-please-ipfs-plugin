@@ -1,6 +1,6 @@
 {
   "name": "@ipfs-shipyard/release-please-ipfs-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A release-please helper plugin for IPFS repos. Initially created for IPFS-desktop",
   "author": "Russell Dempsey <1173416+SgtPooki@users.noreply.github.com>",
   "license": "Apache-2.0 OR MIT",
