@@ -3,7 +3,7 @@ import { logger as defaultLogger, type Logger } from 'release-please/build/src/u
 
 export class UpdateVersionsInReadme extends DefaultUpdater {
   getRegex (oldVersion: string): RegExp {
-    return new RegExp(`((?:ipfs-desktop|IPFS-Desktop-Setup|ipfs-desktop/releases/tag|ipfs-desktop/releases/download)[-/]v?)${oldVersion}`, 'gm')
+    return new RegExp(`((?:ipfs-desktop|IPFS-Desktop-Setup|ipfs-desktop-setup|ipfs-desktop/releases/tag|ipfs-desktop/releases/download)[-/]v?)${oldVersion}`, 'gm')
   }
 
   updateContent (content: string, logger: Logger = defaultLogger): string {
