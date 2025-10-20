@@ -136,7 +136,7 @@
     "release": "aegir release"
   },
   "devDependencies": {
-    "aegir": "^41.0.4",
+    "aegir": "github:ipfs/aegir#dependabot/npm_and_yarn/semantic-release-a0608c01f1",
     "typescript": "^5.2.2"
   },
   "peerDependencies": {
