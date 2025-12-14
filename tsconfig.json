@@ -3,7 +3,7 @@
   "compilerOptions": {
     "outDir": "dist",
     "target": "ES2024",
-    "module": "commonjs",
+    "module": "node16",
     "verbatimModuleSyntax": false
   },
   "include": [
