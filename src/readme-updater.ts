@@ -1,5 +1,6 @@
 import { DefaultUpdater } from 'release-please/build/src/updaters/default'
-import { logger as defaultLogger, type Logger } from 'release-please/build/src/util/logger'
+import { logger as defaultLogger } from 'release-please/build/src/util/logger'
+import type { Logger } from 'release-please/build/src/util/logger'
 
 export class UpdateVersionsInReadme extends DefaultUpdater {
   getRegex (oldVersion: string): RegExp {
