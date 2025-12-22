@@ -1,3 +1,21 @@
+## [1.1.0](https://github.com/ipfs-shipyard/release-please-ipfs-plugin/compare/v1.0.1...v1.1.0) (2025-12-22)
+
+
+### Features
+
+* set tsconfig module to node16 ([2c1bf25](https://github.com/ipfs-shipyard/release-please-ipfs-plugin/commit/2c1bf25ed8766fd1516856e60b2d36d54e2a741f))
+* update tsconfig target to es2024 ([3b8387c](https://github.com/ipfs-shipyard/release-please-ipfs-plugin/commit/3b8387c77201caba58056f45cf30dc67a859f919))
+
+
+### Trivial Changes
+
+* eslint ([a1864e8](https://github.com/ipfs-shipyard/release-please-ipfs-plugin/commit/a1864e8373514416ad4df9d785920d643059c879))
+
+
+### Dependencies
+
+* bump aegir and node ([f7d2019](https://github.com/ipfs-shipyard/release-please-ipfs-plugin/commit/f7d2019e37c04a0ed8509ef38a7d70beb634a070))
+
 ## [1.0.1](https://github.com/ipfs-shipyard/release-please-ipfs-plugin/compare/v1.0.0...v1.0.1) (2025-05-23)
 
 
