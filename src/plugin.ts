@@ -1,9 +1,9 @@
 // import { type ConventionalCommit } from 'release-please/build/src/commit';
-import { type GitHub } from 'release-please/build/src/github'
-import { type CandidateReleasePullRequest, type RepositoryConfig } from 'release-please/build/src/manifest'
 import { ManifestPlugin } from 'release-please/build/src/plugin'
-import { type Update } from 'release-please/build/src/update'
 import { UpdateVersionsInReadme } from './readme-updater'
+import type { GitHub } from 'release-please/build/src/github'
+import type { CandidateReleasePullRequest, RepositoryConfig } from 'release-please/build/src/manifest'
+import type { Update } from 'release-please/build/src/update'
 
 export class CustomPlugin extends ManifestPlugin {
   constructor (

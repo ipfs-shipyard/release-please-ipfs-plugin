@@ -2,8 +2,8 @@
   "extends": "aegir/src/config/tsconfig.aegir.json",
   "compilerOptions": {
     "outDir": "dist",
-    "target": "ES6",
-    "module": "commonjs",
+    "target": "ES2024",
+    "module": "node16",
     "verbatimModuleSyntax": false
   },
   "include": [
