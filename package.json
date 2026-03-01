@@ -136,7 +136,7 @@
     "release": "aegir release"
   },
   "devDependencies": {
-    "aegir": "ipfs/aegir#deps/semantic-release",
+    "aegir": "^47.0.26",
     "typescript": "^5.2.2"
   },
   "peerDependencies": {
