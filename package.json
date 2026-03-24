@@ -137,7 +137,7 @@
   },
   "devDependencies": {
     "aegir": "^47.0.26",
-    "typescript": "^5.2.2"
+    "typescript": "^6.0.2"
   },
   "peerDependencies": {
     "release-please": "^16.0.0"
